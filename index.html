@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Hologram</title>
+    <style>
+      body {
+        margin: 0;
+        background: #222;
+        overflow: hidden;
+      }
+      img {
+        max-width: 90%;
+        max-height: 100vh;
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <img id="imgA" src="me1.jpeg" />
+    <img id="imgB" src="me2.jpg" />
+    <!-- <div id="animated-object"></div> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

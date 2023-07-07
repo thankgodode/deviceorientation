@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: darkgray;
+  overflow: hidden;
+  text-align: center;
+}
+
+#animated-object {
+  position: absollute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
